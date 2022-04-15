@@ -1,0 +1,560 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00AFC1;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    background-color: #006778;
+    color: white;
+}
+.navData{
+    display: flex;
+    align-items: center;
+}
+.navData > img{
+    width: 50px;
+    margin-left: 10px;
+}
+.title{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.search{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    /* border: 1px solid red; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#city{
+    width: 63%;
+    background-color: transparent;
+    border: 1px solid rgb(50, 50, 50);
+    height: 30px;
+    font-size: 20px;
+    color: white;
+}
+#submit{
+    width: 28%;
+    font-size: 15px;
+    background-color: #006778;
+    border: none;
+    font-weight: 400;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#gps{
+    width:5%;
+    font-size: 15px;
+    background-color: #006778;
+    border: none;
+    font-weight: 400;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #005a69;
+    font-weight: 600;
+    transform: scale(1.05);
+    transition: 1000ms;
+}
+#container,.mapouter{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #00343d;
+    
+}
+h1{
+    font-weight: 400;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+#doge > img{
+    width: 300px;
+}
+
+
+/* medium */
+@media only screen and (min-width: 1006px) and (max-width: 1207px){
+    .navbar{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        align-items: center;
+        background-color: #006778;
+        color: white;
+    }
+    .navData{
+        display: flex;
+        align-items: center;
+    }
+    .navData > img{
+        width: 50px;
+        margin-left: 10px;
+    }
+    .title{
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .search{
+        width: 60%;
+        margin: auto;
+        margin-top: 25px;
+        /* border: 1px solid red; */
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #city{
+        width: 65%;
+        background-color: transparent;
+        border: 1px solid rgb(50, 50, 50);
+        height: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    #submit{
+        width: 25%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #gps{
+        width:6%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #005a69;
+        font-weight: 600;
+        transform: scale(1.05);
+        transition: 1000ms;
+    }
+    #container,.mapouter{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        color: #054b58;
+        
+    }
+    h1{
+        font-weight: 400;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+@media only screen and (min-width: 803px) and (max-width: 1005px){
+    .navbar{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        align-items: center;
+        background-color: #006778;
+        color: white;
+    }
+    .navData{
+        display: flex;
+        align-items: center;
+    }
+    .navData > img{
+        width: 50px;
+        margin-left: 10px;
+    }
+    .title{
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .search{
+        width: 75%;
+        margin: auto;
+        margin-top: 25px;
+        /* border: 1px solid red; */
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #city{
+        width: 62%;
+        background-color: transparent;
+        border: 1px solid rgb(50, 50, 50);
+        height: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    #submit{
+        width: 25%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #gps{
+        width:8%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #005a69;
+        font-weight: 600;
+        transform: scale(1.05);
+        transition: 1000ms;
+    }
+    #container,.mapouter{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        color: #054b58;
+        
+    }
+    h1{
+        font-weight: 400;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+@media only screen and (min-width: 710px) and (max-width: 802px){
+    .navbar{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        align-items: center;
+        background-color: #006778;
+        color: white;
+    }
+    .navData{
+        display: flex;
+        align-items: center;
+    }
+    .navData > img{
+        width: 50px;
+        margin-left: 10px;
+    }
+    .title{
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .search{
+        width: 85%;
+        margin: auto;
+        margin-top: 25px;
+        /* border: 1px solid red; */
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #city{
+        width: 62%;
+        background-color: transparent;
+        border: 1px solid rgb(50, 50, 50);
+        height: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    #submit{
+        width: 26%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #gps{
+        width:8%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #005a69;
+        font-weight: 600;
+        transform: scale(1.05);
+        transition: 1000ms;
+    }
+    #container,.mapouter{
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        color: #054b58;
+        
+    }
+    h1{
+        font-weight: 400;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 709px){
+    .navbar{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        align-items: center;
+        background-color: #006778;
+        color: white;
+    }
+    .navData{
+        display: flex;
+        align-items: center;
+    }
+    .navData > img{
+        width: 50px;
+        margin-left: 10px;
+    }
+    .title{
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .search{
+        width: 70%;
+        margin: auto;
+        margin-top: 25px;
+        /* border: 1px solid red; */
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #city{
+        width: 62%;
+        background-color: transparent;
+        border: 1px solid rgb(50, 50, 50);
+        height: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    #submit{
+        width: 26%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #gps{
+        width:8%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #005a69;
+        font-weight: 600;
+        transform: scale(1.05);
+        transition: 1000ms;
+    }
+    #container,.mapouter{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        color: #054b58;
+        
+    }
+    h1{
+        font-weight: 400;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
+
+@media only screen and (min-width: 5px) and (max-width: 500px)
+{
+    .navbar{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        align-items: center;
+        background-color: #006778;
+        color: white;
+    }
+    .navData{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .navData > img{
+        width: 38px;
+        margin-left: 0;
+    }
+    .title{
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .search{
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #city{
+        width: 60%;
+        background-color: transparent;
+        border: 1px solid rgb(50, 50, 50);
+        height: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    #submit{
+        width: 25%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #gps{
+        width:10%;
+        font-size: 15px;
+        background-color: #006778;
+        border: none;
+        font-weight: 400;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #005a69;
+        font-weight: 600;
+        transform: scale(1.05);
+        transition: 1000ms;
+    }
+    #container,.mapouter{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: #054b58;
+        
+    }
+    h1{
+        font-weight: 400;
+        font-size: 25px;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    #doge > img{
+        width: 220px;
+    }
+}
