@@ -96,6 +96,9 @@ h1{
 #doge > img{
     width: 300px;
 }
+input:focus{
+outline: none;
+}
 
 
 /* medium */
@@ -188,6 +191,9 @@ h1{
         grid-template-columns: repeat(2,1fr);
         
     }
+input:focus{
+outline: none;
+}
 }
 
 @media only screen and (min-width: 803px) and (max-width: 1005px){
@@ -279,6 +285,9 @@ h1{
         grid-template-columns: repeat(2,1fr);
         
     }
+input:focus{
+outline: none;
+}
 }
 
 @media only screen and (min-width: 710px) and (max-width: 802px){
@@ -370,6 +379,9 @@ h1{
         grid-template-columns: repeat(2,1fr);
         
     }
+input:focus{
+outline: none;
+}
 }
 
 @media only screen and (min-width: 500px) and (max-width: 709px){
@@ -461,6 +473,9 @@ h1{
         grid-template-columns: repeat(1,1fr);
         
     }
+input:focus{
+outline: none;
+}
 }
 
 @media only screen and (min-width: 5px) and (max-width: 500px)
@@ -557,4 +572,7 @@ h1{
     #doge > img{
         width: 220px;
     }
+input:focus{
+outline: none;
+}
 }
